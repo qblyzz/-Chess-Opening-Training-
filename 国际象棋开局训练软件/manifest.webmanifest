@@ -1,0 +1,28 @@
+{
+  "name": "开局训练室 · 国际象棋开局训练",
+  "short_name": "开局训练室",
+  "description": "学习国际象棋经典开局与变例：47 个开局、151 条线路，含中文逐步讲解、走法记忆训练、认开局测验与间隔重复复习。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "/index.html",
+  "scope": "/",
+  "id": "chess-opening-trainer",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#f2f1ee",
+  "theme_color": "#4b7c2f",
+  "categories": ["education", "games", "sports"],
+  "icons": [
+    { "src": "/assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icons/icon-256.png", "sizes": "256x256", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icons/icon-384.png", "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "开始训练", "short_name": "训练", "url": "/index.html?view=train", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "今日复习", "short_name": "复习", "url": "/index.html?view=review", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "开局库", "short_name": "开局库", "url": "/index.html?view=library", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

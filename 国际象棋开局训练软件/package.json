@@ -1,0 +1,20 @@
+{
+  "name": "chess-opening-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "开局训练室 —— 国际象棋经典开局与变例学习训练软件（离线可用，类 lichess 棋盘交互）",
+  "scripts": {
+    "start": "node tools/launch-app.mjs",
+    "start:tab": "node tools/launch-app.mjs --tab",
+    "serve": "node tools/server.mjs --open",
+    "build:data": "node tools/build-data.mjs",
+    "check:data": "node tools/check-openings.mjs --all",
+    "list:openings": "node tools/list-openings.mjs",
+    "test:perft": "node tools/perft.mjs --depth 4",
+    "test:browser": "node tools/smoke.mjs --url=\"/index.html?selftest=1\"",
+    "selfcheck": "node tools/selfcheck.mjs",
+    "icons": "node tools/make-icons.mjs",
+    "shortcut": "node tools/create-shortcut.mjs"
+  }
+}
